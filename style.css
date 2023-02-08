@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+}
+
+.card {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: solid black 1px;
+    border-radius: 5%;
+}
+
+.bg-blue {
+    background: #00cded;
+    background: -webkit-gradient(linear, left top, left bottom, from(#96d1f9), to(#00cded));
+    background: -o-linear-gradient(#96d1f9, #00cded);
+    background: linear-gradient(hsl(204, 89%, 78%), hsl(188, 100%, 46%));
+}
+
+.bg-green {
+    background: #8dc63f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#b9f4bc), to(#8dc63f));
+    background: -o-linear-gradient(#b9f4bc, #8dc63f);
+    background: linear-gradient(hsl(123, 73%, 84%), hsl(85, 54%, 51%));
+}
+
+.bg-yellow {
+    background: #ffb601;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffd57f), to(#ffb601));
+    background: -o-linear-gradient(#ffd57f, #ffb601);
+    background: linear-gradient(hsl(40, 100%, 75%), hsl(43, 100%, 50%));
+}
+
+.bg-red {
+    background: #ff5b5c;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff9395), to(#ff5b5c));
+    background: -o-linear-gradient(#ff9395, #ff5b5c);
+    background: linear-gradient(hsl(359, 100%, 79%), hsl(360, 100%, 68%));
+}
+
+.g-blue{
+    background: linear-gradient(to bottom,
+        #a5c9fd 0%, #a5c9fd 6%, #a7cbff 8%, #a5c9fd 11%,
+        #a7cbff 11%, #aacffc 28%, #b0d5ff 44%, #b0d6fb 48%,
+        #b5dbff 62%, #b4dbfc 62%, #b8dffe 75%, #bae2fb 79%,
+        #bce4fe 91%, #bde6fa 96%, #bee7fd 100%);
+}
+
+.g-red{
+    background: linear-gradient(to bottom,
+        #ff8582 0%, #fe8685 16%,#ff908e 44%, #fe908f 53%,
+        #ff9692 62%, #ff9597 67%, #ff9a98 84%,#ff9b9b 85%,
+        #fe9c9d 91%, #ff9e98 96%, #ff9d9c 96%, #ff9e9d 100%);
+}
+
+.g-green{
+    background: linear-gradient(to bottom,
+         #9ae69c 0%, #9ce999 5%, #9cea9e 6%, #9cea9e 6%,
+         #a0e99a 10%, #a3eb95 24%, #adee92 36%, #adee90 40%,
+         #b3ef8f 45%, #b0f08f 46%, #b4f18a 50%, #b7f18d 51%,
+         #b6f08a 53%, #baf18b 58%, #c4f780 77%, #c9f681 86%,
+         #ccfa7e 90%, #cbf77c 94%, #cff87e 96%, #cff87e 100%);
+}
